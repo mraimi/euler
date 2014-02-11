@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CCI_linkedLists/main.cpp"
+            timestampString = "412399640.415095"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "printInt(std::list&lt;int&gt; toPrint)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "removeDupesSet(std::__1::list&lt;int, std::__1::allocator&lt;int&gt; &gt;)"
+                  moduleName = "CCI_linkedLists"
+                  urlString = "file:///Users/tobes/Documents/Xcode/CCI_linkedLists/CCI_linkedLists/main.cpp"
+                  timestampString = "412399640.439157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "475">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "removeDupesSet(std::__1::list&lt;int, std::__1::allocator&lt;int&gt; &gt;)"
+                  moduleName = "CCI_linkedLists"
+                  urlString = "file:///Users/tobes/Documents/Xcode/CCI_linkedLists/CCI_linkedLists/main.cpp"
+                  timestampString = "412399640.441957"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "618">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "removeDupesSet(std::__1::list&lt;int, std::__1::allocator&lt;int&gt; &gt;)"
+                  moduleName = "CCI_linkedLists"
+                  urlString = "file:///Users/tobes/Documents/Xcode/CCI_linkedLists/CCI_linkedLists/main.cpp"
+                  timestampString = "412399640.442193"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "702">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "removeDupesSet(std::__1::list&lt;int, std::__1::allocator&lt;int&gt; &gt;)"
+                  moduleName = "CCI_linkedLists"
+                  urlString = "file:///Users/tobes/Documents/Xcode/CCI_linkedLists/CCI_linkedLists/main.cpp"
+                  timestampString = "412399640.442464"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "983">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
