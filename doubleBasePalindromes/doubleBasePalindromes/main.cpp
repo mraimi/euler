@@ -37,6 +37,49 @@ int pow(int base, int exp){
     return toReturn;
 }
 
+
+
+/* ------------------------------------------------------------------
+    dec2bin is a hard coded base conversion from 10 to 2
+    dec2base is a more general implentation of base conversion
+ ------------------------------------------------------------------ */
+
+
+string dec2base(int decimal, int base){
+//done
+    string toReturn("");
+    
+    if (base==0) {
+        return "ERROR";
+    }
+    
+    if (decimal==0){
+        return "0";
+    }
+    
+    int divisor = base;
+    int dividend = decimal;
+    int quotient = (int) dividend/divisor;
+    int toPush = dividend % divisor;
+    
+    char tp = '0'+toPush;
+    toReturn.insert(toReturn.begin(), tp);
+
+    while (quotient !=0) {
+        dividend = quotient;
+        quotient = dividend/divisor;
+        toPush = dividend % divisor;
+        char tp = '0'+toPush;
+        toReturn.insert(toReturn.begin(), tp);
+    }
+    
+    
+    
+    
+    
+    return toReturn;
+}
+
 string dec2bin(int i){
 //done
     string newBinary("");
@@ -97,17 +140,8 @@ bool dbPal(int i){
 
 int main(int argc, const char * argv[])
 {
-
-//    if (pCheck("0110")) {
-//        cout << "true\n";
-//    }
-//    if (!pCheck("0120")) {
-//        cout << "false\n";
-//    }
-// cout << exp(2, 5) << endl;
-
-    //cout << dec2bin(5)<< endl;
-    //return 0;
+    cout << dec2base(123, 0) << endl;
+    return 0;
     
     int sum=0;
     for (int i=1; i<1000000; i++) {
