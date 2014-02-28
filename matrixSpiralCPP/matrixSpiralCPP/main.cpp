@@ -12,7 +12,9 @@
 
 void printShell(int mat[][5], int height, int length){
     
-    printf("%d\n",mat[0][0]);
+    if (sizeof(mat)/sizeof(*mat)) {
+        std::cout << "greater than 1" << std::endl;
+    }
     
 }
 

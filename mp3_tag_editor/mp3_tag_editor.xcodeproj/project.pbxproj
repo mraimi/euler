@@ -11,6 +11,30 @@
 		F5F57C0418B59209004CA306 /* mp3_tag_editor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F5F57C0318B59209004CA306 /* mp3_tag_editor.1 */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F5F57CB618B648FF004CA306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F57C5E18B648FE004CA306 /* jukebox.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E;
+			remoteInfo = jukebox;
+		};
+		F5F57CB918B648FF004CA306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F57C7018B648FF004CA306 /* Randomify.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = Randomify;
+		};
+		F5F57CBC18B648FF004CA306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5F57C8318B648FF004CA306 /* spshell.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DD76FB20486AB0100D96B5E;
+			remoteInfo = spshell;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F5F57BFC18B59209004CA306 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -28,6 +52,434 @@
 		F5F57BFE18B59209004CA306 /* mp3_tag_editor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mp3_tag_editor; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5F57C0118B59209004CA306 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F5F57C0318B59209004CA306 /* mp3_tag_editor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = mp3_tag_editor.1; sourceTree = "<group>"; };
+		F5F57C0B18B648FE004CA306 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		F5F57C0E18B648FE004CA306 /* annotated.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = annotated.html; sourceTree = "<group>"; };
+		F5F57C0F18B648FE004CA306 /* api_8h.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = api_8h.html; sourceTree = "<group>"; };
+		F5F57C1018B648FE004CA306 /* bc_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bc_s.png; sourceTree = "<group>"; };
+		F5F57C1118B648FE004CA306 /* bdwn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bdwn.png; sourceTree = "<group>"; };
+		F5F57C1218B648FE004CA306 /* browse_8c-example.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "browse_8c-example.html"; sourceTree = "<group>"; };
+		F5F57C1318B648FE004CA306 /* classes.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = classes.html; sourceTree = "<group>"; };
+		F5F57C1418B648FE004CA306 /* closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closed.png; sourceTree = "<group>"; };
+		F5F57C1518B648FE004CA306 /* doxygen.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = doxygen.css; sourceTree = "<group>"; };
+		F5F57C1618B648FE004CA306 /* doxygen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doxygen.png; sourceTree = "<group>"; };
+		F5F57C1718B648FE004CA306 /* examples.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = examples.html; sourceTree = "<group>"; };
+		F5F57C1818B648FE004CA306 /* files.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = files.html; sourceTree = "<group>"; };
+		F5F57C1918B648FE004CA306 /* functions.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = functions.html; sourceTree = "<group>"; };
+		F5F57C1A18B648FE004CA306 /* functions_vars.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = functions_vars.html; sourceTree = "<group>"; };
+		F5F57C1B18B648FE004CA306 /* globals.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals.html; sourceTree = "<group>"; };
+		F5F57C1C18B648FE004CA306 /* globals_0x69.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_0x69.html; sourceTree = "<group>"; };
+		F5F57C1D18B648FE004CA306 /* globals_0x73.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_0x73.html; sourceTree = "<group>"; };
+		F5F57C1E18B648FE004CA306 /* globals_0x74.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_0x74.html; sourceTree = "<group>"; };
+		F5F57C1F18B648FE004CA306 /* globals_defs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_defs.html; sourceTree = "<group>"; };
+		F5F57C2018B648FE004CA306 /* globals_enum.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_enum.html; sourceTree = "<group>"; };
+		F5F57C2118B648FE004CA306 /* globals_eval.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_eval.html; sourceTree = "<group>"; };
+		F5F57C2218B648FE004CA306 /* globals_func.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_func.html; sourceTree = "<group>"; };
+		F5F57C2318B648FE004CA306 /* globals_type.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = globals_type.html; sourceTree = "<group>"; };
+		F5F57C2418B648FE004CA306 /* group__album.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__album.html; sourceTree = "<group>"; };
+		F5F57C2518B648FE004CA306 /* group__albumbrowse.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__albumbrowse.html; sourceTree = "<group>"; };
+		F5F57C2618B648FE004CA306 /* group__artist.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__artist.html; sourceTree = "<group>"; };
+		F5F57C2718B648FE004CA306 /* group__artistbrowse.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__artistbrowse.html; sourceTree = "<group>"; };
+		F5F57C2818B648FE004CA306 /* group__error.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__error.html; sourceTree = "<group>"; };
+		F5F57C2918B648FE004CA306 /* group__image.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__image.html; sourceTree = "<group>"; };
+		F5F57C2A18B648FE004CA306 /* group__inbox.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__inbox.html; sourceTree = "<group>"; };
+		F5F57C2B18B648FE004CA306 /* group__link.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__link.html; sourceTree = "<group>"; };
+		F5F57C2C18B648FE004CA306 /* group__playlist.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__playlist.html; sourceTree = "<group>"; };
+		F5F57C2D18B648FE004CA306 /* group__search.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__search.html; sourceTree = "<group>"; };
+		F5F57C2E18B648FE004CA306 /* group__session.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__session.html; sourceTree = "<group>"; };
+		F5F57C2F18B648FE004CA306 /* group__toplist.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__toplist.html; sourceTree = "<group>"; };
+		F5F57C3018B648FE004CA306 /* group__track.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__track.html; sourceTree = "<group>"; };
+		F5F57C3118B648FE004CA306 /* group__types.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__types.html; sourceTree = "<group>"; };
+		F5F57C3218B648FE004CA306 /* group__user.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = group__user.html; sourceTree = "<group>"; };
+		F5F57C3318B648FE004CA306 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F5F57C3418B648FE004CA306 /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = "<group>"; };
+		F5F57C3518B648FE004CA306 /* jukebox_8c-example.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "jukebox_8c-example.html"; sourceTree = "<group>"; };
+		F5F57C3618B648FE004CA306 /* modules.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = modules.html; sourceTree = "<group>"; };
+		F5F57C3718B648FE004CA306 /* nav_f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_f.png; sourceTree = "<group>"; };
+		F5F57C3818B648FE004CA306 /* nav_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_h.png; sourceTree = "<group>"; };
+		F5F57C3918B648FE004CA306 /* open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = open.png; sourceTree = "<group>"; };
+		F5F57C3A18B648FE004CA306 /* search_8c-example.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "search_8c-example.html"; sourceTree = "<group>"; };
+		F5F57C3B18B648FE004CA306 /* structsp__audio__buffer__stats.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__audio__buffer__stats.html; sourceTree = "<group>"; };
+		F5F57C3C18B648FE004CA306 /* structsp__audioformat.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__audioformat.html; sourceTree = "<group>"; };
+		F5F57C3D18B648FE004CA306 /* structsp__offline__sync__status.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__offline__sync__status.html; sourceTree = "<group>"; };
+		F5F57C3E18B648FE004CA306 /* structsp__playlist__callbacks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__playlist__callbacks.html; sourceTree = "<group>"; };
+		F5F57C3F18B648FE004CA306 /* structsp__playlistcontainer__callbacks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__playlistcontainer__callbacks.html; sourceTree = "<group>"; };
+		F5F57C4018B648FE004CA306 /* structsp__session__callbacks.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__session__callbacks.html; sourceTree = "<group>"; };
+		F5F57C4118B648FE004CA306 /* structsp__session__config.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__session__config.html; sourceTree = "<group>"; };
+		F5F57C4218B648FE004CA306 /* structsp__subscribers.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = structsp__subscribers.html; sourceTree = "<group>"; };
+		F5F57C4318B648FE004CA306 /* tab_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_a.png; sourceTree = "<group>"; };
+		F5F57C4418B648FE004CA306 /* tab_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_b.png; sourceTree = "<group>"; };
+		F5F57C4518B648FE004CA306 /* tab_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_h.png; sourceTree = "<group>"; };
+		F5F57C4618B648FE004CA306 /* tab_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_s.png; sourceTree = "<group>"; };
+		F5F57C4718B648FE004CA306 /* tabs.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = tabs.css; sourceTree = "<group>"; };
+		F5F57C4818B648FE004CA306 /* toplist_8c-example.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "toplist_8c-example.html"; sourceTree = "<group>"; };
+		F5F57C4A18B648FE004CA306 /* spotify-core-logo-128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spotify-core-logo-128x128.png"; sourceTree = "<group>"; };
+		F5F57C4B18B648FE004CA306 /* spotify-core.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "spotify-core.txt"; sourceTree = "<group>"; };
+		F5F57C4D18B648FE004CA306 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		F5F57C4E18B648FE004CA306 /* appkey.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = appkey.c; sourceTree = "<group>"; };
+		F5F57C4F18B648FE004CA306 /* common.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		F5F57C5118B648FE004CA306 /* alsa-audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "alsa-audio.c"; sourceTree = "<group>"; };
+		F5F57C5218B648FE004CA306 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		F5F57C5318B648FE004CA306 /* appkey.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = appkey.o; sourceTree = "<group>"; };
+		F5F57C5418B648FE004CA306 /* audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = audio.c; sourceTree = "<group>"; };
+		F5F57C5518B648FE004CA306 /* audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		F5F57C5618B648FE004CA306 /* audio.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = audio.o; sourceTree = "<group>"; };
+		F5F57C5718B648FE004CA306 /* dummy-audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "dummy-audio.c"; sourceTree = "<group>"; };
+		F5F57C5818B648FE004CA306 /* jukebox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jukebox.c; sourceTree = "<group>"; };
+		F5F57C5918B648FE004CA306 /* jukebox.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = jukebox.o; sourceTree = "<group>"; };
+		F5F57C5A18B648FE004CA306 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F5F57C5B18B648FE004CA306 /* openal-audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "openal-audio.c"; sourceTree = "<group>"; };
+		F5F57C5C18B648FE004CA306 /* openal-audio.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "openal-audio.o"; sourceTree = "<group>"; };
+		F5F57C5E18B648FE004CA306 /* jukebox.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = jukebox.xcodeproj; sourceTree = "<group>"; };
+		F5F57C6118B648FF004CA306 /* osx-audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "osx-audio.c"; sourceTree = "<group>"; };
+		F5F57C6218B648FF004CA306 /* playtrack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = playtrack.c; sourceTree = "<group>"; };
+		F5F57C6318B648FF004CA306 /* queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = queue.h; sourceTree = "<group>"; };
+		F5F57C6518B648FF004CA306 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5F57C6618B648FF004CA306 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		F5F57C6718B648FF004CA306 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F5F57C6818B648FF004CA306 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F5F57C6B18B648FF004CA306 /* English */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5F57C6D18B648FF004CA306 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F5F57C6E18B648FF004CA306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5F57C6F18B648FF004CA306 /* Randomify-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Randomify-Info.plist"; sourceTree = "<group>"; };
+		F5F57C7018B648FF004CA306 /* Randomify.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Randomify.xcodeproj; sourceTree = "<group>"; };
+		F5F57C7318B648FF004CA306 /* Randomify_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Randomify_Prefix.pch; sourceTree = "<group>"; };
+		F5F57C7418B648FF004CA306 /* RandomifyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomifyAppDelegate.h; sourceTree = "<group>"; };
+		F5F57C7518B648FF004CA306 /* RandomifyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomifyAppDelegate.m; sourceTree = "<group>"; };
+		F5F57C7618B648FF004CA306 /* SpotifyPlaylist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifyPlaylist.h; sourceTree = "<group>"; };
+		F5F57C7718B648FF004CA306 /* SpotifyPlaylist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyPlaylist.m; sourceTree = "<group>"; };
+		F5F57C7818B648FF004CA306 /* SpotifySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifySession.h; sourceTree = "<group>"; };
+		F5F57C7918B648FF004CA306 /* SpotifySession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifySession.m; sourceTree = "<group>"; };
+		F5F57C7A18B648FF004CA306 /* SpotifyTrack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpotifyTrack.h; sourceTree = "<group>"; };
+		F5F57C7B18B648FF004CA306 /* SpotifyTrack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyTrack.m; sourceTree = "<group>"; };
+		F5F57C7D18B648FF004CA306 /* browse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = browse.c; sourceTree = "<group>"; };
+		F5F57C7E18B648FF004CA306 /* cmd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cmd.c; sourceTree = "<group>"; };
+		F5F57C7F18B648FF004CA306 /* cmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmd.h; sourceTree = "<group>"; };
+		F5F57C8018B648FF004CA306 /* inbox.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inbox.c; sourceTree = "<group>"; };
+		F5F57C8118B648FF004CA306 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F5F57C8318B648FF004CA306 /* spshell.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = spshell.xcodeproj; sourceTree = "<group>"; };
+		F5F57C8618B648FF004CA306 /* playlist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = playlist.c; sourceTree = "<group>"; };
+		F5F57C8718B648FF004CA306 /* scrobbling.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scrobbling.c; sourceTree = "<group>"; };
+		F5F57C8818B648FF004CA306 /* search.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = search.c; sourceTree = "<group>"; };
+		F5F57C8918B648FF004CA306 /* spshell.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spshell.c; sourceTree = "<group>"; };
+		F5F57C8A18B648FF004CA306 /* spshell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spshell.h; sourceTree = "<group>"; };
+		F5F57C8B18B648FF004CA306 /* spshell_posix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spshell_posix.c; sourceTree = "<group>"; };
+		F5F57C8C18B648FF004CA306 /* spshell_win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = spshell_win32.c; sourceTree = "<group>"; };
+		F5F57C8D18B648FF004CA306 /* star.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = star.c; sourceTree = "<group>"; };
+		F5F57C8E18B648FF004CA306 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		F5F57C8F18B648FF004CA306 /* toplist.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = toplist.c; sourceTree = "<group>"; };
+		F5F57C9118B648FF004CA306 /* spshell.vcproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = spshell.vcproj; sourceTree = "<group>"; };
+		F5F57C9218B648FF004CA306 /* spshell.vcxproj */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = spshell.vcxproj; sourceTree = "<group>"; };
+		F5F57C9318B648FF004CA306 /* spshell.vcxproj.filters */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = spshell.vcxproj.filters; sourceTree = "<group>"; };
+		F5F57C9518B648FF004CA306 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F5F57C9618B648FF004CA306 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		F5F57C9718B648FF004CA306 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		F5F57C9818B648FF004CA306 /* libspotify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libspotify.framework; sourceTree = "<group>"; };
+		F5F57C9918B648FF004CA306 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F5F57C9A18B648FF004CA306 /* licenses.xhtml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = licenses.xhtml; sourceTree = "<group>"; };
+		F5F57C9C18B648FF004CA306 /* album.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = album.3spotify; sourceTree = "<group>"; };
+		F5F57C9D18B648FF004CA306 /* albumbrowse.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = albumbrowse.3spotify; sourceTree = "<group>"; };
+		F5F57C9E18B648FF004CA306 /* api.h.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = api.h.3spotify; sourceTree = "<group>"; };
+		F5F57C9F18B648FF004CA306 /* artist.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = artist.3spotify; sourceTree = "<group>"; };
+		F5F57CA018B648FF004CA306 /* artistbrowse.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = artistbrowse.3spotify; sourceTree = "<group>"; };
+		F5F57CA118B648FF004CA306 /* error.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = error.3spotify; sourceTree = "<group>"; };
+		F5F57CA218B648FF004CA306 /* image.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = image.3spotify; sourceTree = "<group>"; };
+		F5F57CA318B648FF004CA306 /* inbox.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = inbox.3spotify; sourceTree = "<group>"; };
+		F5F57CA418B648FF004CA306 /* link.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = link.3spotify; sourceTree = "<group>"; };
+		F5F57CA518B648FF004CA306 /* playlist.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = playlist.3spotify; sourceTree = "<group>"; };
+		F5F57CA618B648FF004CA306 /* search.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = search.3spotify; sourceTree = "<group>"; };
+		F5F57CA718B648FF004CA306 /* session.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = session.3spotify; sourceTree = "<group>"; };
+		F5F57CA818B648FF004CA306 /* sp_audio_buffer_stats.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_audio_buffer_stats.3spotify; sourceTree = "<group>"; };
+		F5F57CA918B648FF004CA306 /* sp_audioformat.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_audioformat.3spotify; sourceTree = "<group>"; };
+		F5F57CAA18B648FF004CA306 /* sp_offline_sync_status.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_offline_sync_status.3spotify; sourceTree = "<group>"; };
+		F5F57CAB18B648FF004CA306 /* sp_playlist_callbacks.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_playlist_callbacks.3spotify; sourceTree = "<group>"; };
+		F5F57CAC18B648FF004CA306 /* sp_playlistcontainer_callbacks.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_playlistcontainer_callbacks.3spotify; sourceTree = "<group>"; };
+		F5F57CAD18B648FF004CA306 /* sp_session_callbacks.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_session_callbacks.3spotify; sourceTree = "<group>"; };
+		F5F57CAE18B648FF004CA306 /* sp_session_config.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_session_config.3spotify; sourceTree = "<group>"; };
+		F5F57CAF18B648FF004CA306 /* sp_subscribers.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = sp_subscribers.3spotify; sourceTree = "<group>"; };
+		F5F57CB018B648FF004CA306 /* toplist.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = toplist.3spotify; sourceTree = "<group>"; };
+		F5F57CB118B648FF004CA306 /* track.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = track.3spotify; sourceTree = "<group>"; };
+		F5F57CB218B648FF004CA306 /* types.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = types.3spotify; sourceTree = "<group>"; };
+		F5F57CB318B648FF004CA306 /* user.3spotify */ = {isa = PBXFileReference; lastKnownFileType = text; path = user.3spotify; sourceTree = "<group>"; };
+		F5F57CB418B648FF004CA306 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F5F57CF518B6496B004CA306 /* acconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acconfig.h; sourceTree = "<group>"; };
+		F5F57CF618B6496B004CA306 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		F5F57CF718B6496B004CA306 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		F5F57CF818B6496B004CA306 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		F5F57CF918B6496B004CA306 /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		F5F57CFA18B6496B004CA306 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		F5F57CFB18B6496B004CA306 /* config.h.win32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.win32; sourceTree = "<group>"; };
+		F5F57CFC18B6496B004CA306 /* config.h.win32.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.win32.in; sourceTree = "<group>"; };
+		F5F57CFD18B6496B004CA306 /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		F5F57CFE18B6496B004CA306 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		F5F57CFF18B6496B004CA306 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		F5F57D0018B6496B004CA306 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		F5F57D0118B6496B004CA306 /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		F5F57D0318B6496B004CA306 /* 3d-logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "3d-logo.gif"; sourceTree = "<group>"; };
+		F5F57D0418B6496B004CA306 /* attilas_id3logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attilas_id3logo.jpg; sourceTree = "<group>"; };
+		F5F57D0518B6496B004CA306 /* Doxyfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile; sourceTree = "<group>"; };
+		F5F57D0618B6496B004CA306 /* Doxyfile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Doxyfile.in; sourceTree = "<group>"; };
+		F5F57D0718B6496B004CA306 /* fillpx.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fillpx.gif; sourceTree = "<group>"; };
+		F5F57D0818B6496B004CA306 /* id3guide.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = id3guide.html; sourceTree = "<group>"; };
+		F5F57D0918B6496B004CA306 /* id3lib-manual.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = "id3lib-manual.php"; sourceTree = "<group>"; };
+		F5F57D0A18B6496B004CA306 /* id3lib.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = id3lib.css; sourceTree = "<group>"; };
+		F5F57D0B18B6496B004CA306 /* id3v2.3.0.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = id3v2.3.0.html; sourceTree = "<group>"; };
+		F5F57D0C18B6496B004CA306 /* id3v2.3.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3v2.3.0.txt; sourceTree = "<group>"; };
+		F5F57D0D18B6496B004CA306 /* id3v2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = id3v2.gif; sourceTree = "<group>"; };
+		F5F57D0E18B6496B004CA306 /* id3v2.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = id3v2.ico; sourceTree = "<group>"; };
+		F5F57D0F18B6496B004CA306 /* id3v2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id3v2.png; sourceTree = "<group>"; };
+		F5F57D1018B6496B004CA306 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		F5F57D1118B6496B004CA306 /* index.html.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.html.in; sourceTree = "<group>"; };
+		F5F57D1218B6496B004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D1318B6496B004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D1418B6496B004CA306 /* musicmatch.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = musicmatch.txt; sourceTree = "<group>"; };
+		F5F57D1618B6496B004CA306 /* 221-compressed.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "221-compressed.tag"; sourceTree = "<group>"; };
+		F5F57D1718B6496B004CA306 /* 230-compressed.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "230-compressed.tag"; sourceTree = "<group>"; };
+		F5F57D1818B6496B004CA306 /* 230-picture.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "230-picture.tag"; sourceTree = "<group>"; };
+		F5F57D1918B6496B004CA306 /* 230-syncedlyrics.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "230-syncedlyrics.tag"; sourceTree = "<group>"; };
+		F5F57D1A18B6496B004CA306 /* 230-unicode.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = "230-unicode.tag"; sourceTree = "<group>"; };
+		F5F57D1B18B6496B004CA306 /* composer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = composer.jpg; sourceTree = "<group>"; };
+		F5F57D1C18B6496B004CA306 /* crc53865.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crc53865.mp3; sourceTree = "<group>"; };
+		F5F57D1D18B6496B004CA306 /* demo_convert.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_convert.cpp; sourceTree = "<group>"; };
+		F5F57D1E18B6496B004CA306 /* demo_convert_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo_convert_options.c; sourceTree = "<group>"; };
+		F5F57D1F18B6496B004CA306 /* demo_convert_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_convert_options.h; sourceTree = "<group>"; };
+		F5F57D2018B6496B004CA306 /* demo_copy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_copy.cpp; sourceTree = "<group>"; };
+		F5F57D2118B6496B004CA306 /* demo_copy_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo_copy_options.c; sourceTree = "<group>"; };
+		F5F57D2218B6496B004CA306 /* demo_copy_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_copy_options.h; sourceTree = "<group>"; };
+		F5F57D2318B6496B004CA306 /* demo_info.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_info.cpp; sourceTree = "<group>"; };
+		F5F57D2418B6496B004CA306 /* demo_info_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo_info_options.c; sourceTree = "<group>"; };
+		F5F57D2518B6496B004CA306 /* demo_info_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_info_options.h; sourceTree = "<group>"; };
+		F5F57D2618B6496B004CA306 /* demo_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_main.cpp; sourceTree = "<group>"; };
+		F5F57D2718B6496B004CA306 /* demo_simple.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_simple.cpp; sourceTree = "<group>"; };
+		F5F57D2818B6496B004CA306 /* demo_tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo_tag.cpp; sourceTree = "<group>"; };
+		F5F57D2918B6496B004CA306 /* demo_tag_options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo_tag_options.c; sourceTree = "<group>"; };
+		F5F57D2A18B6496B004CA306 /* demo_tag_options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo_tag_options.h; sourceTree = "<group>"; };
+		F5F57D2B18B6496B004CA306 /* findeng.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findeng.cpp; sourceTree = "<group>"; };
+		F5F57D2C18B6496B004CA306 /* findstr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = findstr.cpp; sourceTree = "<group>"; };
+		F5F57D2D18B6496B004CA306 /* get_pic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = get_pic.cpp; sourceTree = "<group>"; };
+		F5F57D2E18B6496B004CA306 /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt.c; sourceTree = "<group>"; };
+		F5F57D2F18B6496B004CA306 /* getopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = getopt.h; sourceTree = "<group>"; };
+		F5F57D3018B6496B004CA306 /* getopt1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = getopt1.c; sourceTree = "<group>"; };
+		F5F57D3118B6496B004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D3218B6496B004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D3318B6496B004CA306 /* ozzy.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = ozzy.tag; sourceTree = "<group>"; };
+		F5F57D3418B6496B004CA306 /* test_compression.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_compression.cpp; sourceTree = "<group>"; };
+		F5F57D3518B6496B004CA306 /* test_io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_io.cpp; sourceTree = "<group>"; };
+		F5F57D3618B6496B004CA306 /* test_pic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_pic.cpp; sourceTree = "<group>"; };
+		F5F57D3718B6496B004CA306 /* test_remove.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_remove.cpp; sourceTree = "<group>"; };
+		F5F57D3818B6496B004CA306 /* test_unicode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test_unicode.cpp; sourceTree = "<group>"; };
+		F5F57D3918B6496B004CA306 /* thatspot.tag */ = {isa = PBXFileReference; lastKnownFileType = file; path = thatspot.tag; sourceTree = "<group>"; };
+		F5F57D3A18B6496B004CA306 /* HISTORY */ = {isa = PBXFileReference; lastKnownFileType = text; path = HISTORY; sourceTree = "<group>"; };
+		F5F57D3C18B6496B004CA306 /* dlldata.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dlldata.c; sourceTree = "<group>"; };
+		F5F57D3D18B6496B004CA306 /* EnumFields.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnumFields.cpp; sourceTree = "<group>"; };
+		F5F57D3E18B6496B004CA306 /* EnumFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumFields.h; sourceTree = "<group>"; };
+		F5F57D3F18B6496B004CA306 /* id3com.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = id3com.cpp; sourceTree = "<group>"; };
+		F5F57D4018B6496B004CA306 /* ID3COM.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3COM.def; sourceTree = "<group>"; };
+		F5F57D4118B6496B004CA306 /* id3com.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3com.dsp; sourceTree = "<group>"; };
+		F5F57D4218B6496B004CA306 /* id3com.dsw */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3com.dsw; sourceTree = "<group>"; };
+		F5F57D4318B6496B004CA306 /* id3com.idl */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3com.idl; sourceTree = "<group>"; };
+		F5F57D4418B6496B004CA306 /* ID3COM.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3COM.rc; sourceTree = "<group>"; };
+		F5F57D4518B6496B004CA306 /* ID3COMps.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3COMps.def; sourceTree = "<group>"; };
+		F5F57D4618B6496B004CA306 /* ID3COMps.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3COMps.mk; sourceTree = "<group>"; };
+		F5F57D4718B6496B004CA306 /* ID3Field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ID3Field.cpp; sourceTree = "<group>"; };
+		F5F57D4818B6496B004CA306 /* ID3Field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ID3Field.h; sourceTree = "<group>"; };
+		F5F57D4918B6496B004CA306 /* ID3Field.rgs */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3Field.rgs; sourceTree = "<group>"; };
+		F5F57D4A18B6496B004CA306 /* ID3Frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ID3Frame.cpp; sourceTree = "<group>"; };
+		F5F57D4B18B6496B004CA306 /* ID3Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ID3Frame.h; sourceTree = "<group>"; };
+		F5F57D4C18B6496B004CA306 /* ID3Frame.rgs */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3Frame.rgs; sourceTree = "<group>"; };
+		F5F57D4D18B6496B004CA306 /* ID3Tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ID3Tag.cpp; sourceTree = "<group>"; };
+		F5F57D4E18B6496B004CA306 /* ID3Tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ID3Tag.h; sourceTree = "<group>"; };
+		F5F57D4F18B6496B004CA306 /* ID3Tag.rgs */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3Tag.rgs; sourceTree = "<group>"; };
+		F5F57D5018B6496B004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D5118B6496B004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D5218B6496B004CA306 /* resource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = resource.h; sourceTree = "<group>"; };
+		F5F57D5418B6496B004CA306 /* frmID3Test.frm */ = {isa = PBXFileReference; lastKnownFileType = text; path = frmID3Test.frm; sourceTree = "<group>"; };
+		F5F57D5518B6496B004CA306 /* ID3Test.vbp */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3Test.vbp; sourceTree = "<group>"; };
+		F5F57D5618B6496B004CA306 /* ID3Test.vbw */ = {isa = PBXFileReference; lastKnownFileType = text; path = ID3Test.vbw; sourceTree = "<group>"; };
+		F5F57D5718B6496B004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D5818B6496B004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D5918B6496B004CA306 /* StdAfx.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StdAfx.cpp; sourceTree = "<group>"; };
+		F5F57D5A18B6496B004CA306 /* StdAfx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StdAfx.h; sourceTree = "<group>"; };
+		F5F57D5B18B6496B004CA306 /* win32.readme.first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = win32.readme.first.txt; sourceTree = "<group>"; };
+		F5F57D5C18B6496B004CA306 /* id3lib.spec */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.spec; sourceTree = "<group>"; };
+		F5F57D5D18B6496B004CA306 /* id3lib.spec.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.spec.in; sourceTree = "<group>"; };
+		F5F57D6018B6496B004CA306 /* field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		F5F57D6118B6496B004CA306 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		F5F57D6218B6496B004CA306 /* helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		F5F57D6318B6496B004CA306 /* id3lib_bitset */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib_bitset; sourceTree = "<group>"; };
+		F5F57D6418B6496B004CA306 /* id3lib_frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_frame.h; sourceTree = "<group>"; };
+		F5F57D6518B6496B004CA306 /* id3lib_streams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_streams.h; sourceTree = "<group>"; };
+		F5F57D6618B6496B004CA306 /* id3lib_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_strings.h; sourceTree = "<group>"; };
+		F5F57D6718B6496B004CA306 /* io_decorators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_decorators.h; sourceTree = "<group>"; };
+		F5F57D6818B6496B004CA306 /* io_helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_helpers.h; sourceTree = "<group>"; };
+		F5F57D6918B6496B004CA306 /* io_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_strings.h; sourceTree = "<group>"; };
+		F5F57D6A18B6496B004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D6B18B6496B004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D6C18B6496B004CA306 /* misc_support.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = misc_support.h; sourceTree = "<group>"; };
+		F5F57D6D18B6496C004CA306 /* reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		F5F57D6E18B6496C004CA306 /* readers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readers.h; sourceTree = "<group>"; };
+		F5F57D6F18B6496C004CA306 /* sized_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sized_types.h; sourceTree = "<group>"; };
+		F5F57D7018B6496C004CA306 /* tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		F5F57D7118B6496C004CA306 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		F5F57D7218B6496C004CA306 /* writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		F5F57D7318B6496C004CA306 /* writers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writers.h; sourceTree = "<group>"; };
+		F5F57D7418B6496C004CA306 /* id3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3.h; sourceTree = "<group>"; };
+		F5F57D7518B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D7618B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D7718B6496C004CA306 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		F5F57D7818B6496C004CA306 /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		F5F57D7A18B6496C004CA306 /* id3lib.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.dsp; sourceTree = "<group>"; };
+		F5F57D7B18B6496C004CA306 /* id3lib.dsw */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.dsw; sourceTree = "<group>"; };
+		F5F57D7C18B6496C004CA306 /* id3lib.mcp */ = {isa = PBXFileReference; lastKnownFileType = file; path = id3lib.mcp; sourceTree = "<group>"; };
+		F5F57D7D18B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D7E18B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D7F18B6496C004CA306 /* win32.readme.first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = win32.readme.first.txt; sourceTree = "<group>"; };
+		F5F57D8018B6496C004CA306 /* ltconfig */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltconfig; sourceTree = "<group>"; };
+		F5F57D8118B6496C004CA306 /* ltmain.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ltmain.sh; sourceTree = "<group>"; };
+		F5F57D8318B6496C004CA306 /* id3_cxx.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3_cxx.m4; sourceTree = "<group>"; };
+		F5F57D8418B6496C004CA306 /* id3_debug.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3_debug.m4; sourceTree = "<group>"; };
+		F5F57D8518B6496C004CA306 /* id3_unicode.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3_unicode.m4; sourceTree = "<group>"; };
+		F5F57D8618B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D8718B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D8818B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D8918B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D8A18B6496C004CA306 /* makefile.win32 */ = {isa = PBXFileReference; lastKnownFileType = text; path = makefile.win32; sourceTree = "<group>"; };
+		F5F57D8B18B6496C004CA306 /* makewin32.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = makewin32.bat; sourceTree = "<group>"; };
+		F5F57D8C18B6496C004CA306 /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		F5F57D8D18B6496C004CA306 /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		F5F57D8E18B6496C004CA306 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		F5F57D9018B6496C004CA306 /* id3lib.def */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.def; sourceTree = "<group>"; };
+		F5F57D9118B6496C004CA306 /* id3lib.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.dsp; sourceTree = "<group>"; };
+		F5F57D9218B6496C004CA306 /* id3lib.dsw */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib.dsw; sourceTree = "<group>"; };
+		F5F57D9318B6496C004CA306 /* id3lib.mak */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = id3lib.mak; sourceTree = "<group>"; };
+		F5F57D9418B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57D9518B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57D9618B6496C004CA306 /* version.rc */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.rc; sourceTree = "<group>"; };
+		F5F57D9718B6496C004CA306 /* win32.readme.first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = win32.readme.first.txt; sourceTree = "<group>"; };
+		F5F57D9818B6496C004CA306 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F5F57D9918B6496C004CA306 /* reconf */ = {isa = PBXFileReference; lastKnownFileType = text; path = reconf; sourceTree = "<group>"; };
+		F5F57D9B18B6496C004CA306 /* c_wrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = c_wrapper.cpp; sourceTree = "<group>"; };
+		F5F57D9C18B6496C004CA306 /* field.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = field.cpp; sourceTree = "<group>"; };
+		F5F57D9D18B6496C004CA306 /* field_binary.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = field_binary.cpp; sourceTree = "<group>"; };
+		F5F57D9E18B6496C004CA306 /* field_def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = field_def.h; sourceTree = "<group>"; };
+		F5F57D9F18B6496C004CA306 /* field_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = field_impl.h; sourceTree = "<group>"; };
+		F5F57DA018B6496C004CA306 /* field_integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = field_integer.cpp; sourceTree = "<group>"; };
+		F5F57DA118B6496C004CA306 /* field_string_ascii.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = field_string_ascii.cpp; sourceTree = "<group>"; };
+		F5F57DA218B6496C004CA306 /* field_string_unicode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = field_string_unicode.cpp; sourceTree = "<group>"; };
+		F5F57DA318B6496C004CA306 /* flags.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flags.h; sourceTree = "<group>"; };
+		F5F57DA418B6496C004CA306 /* frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = frame.cpp; sourceTree = "<group>"; };
+		F5F57DA518B6496C004CA306 /* frame_def.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frame_def.h; sourceTree = "<group>"; };
+		F5F57DA618B6496C004CA306 /* frame_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = frame_impl.cpp; sourceTree = "<group>"; };
+		F5F57DA718B6496C004CA306 /* frame_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = frame_impl.h; sourceTree = "<group>"; };
+		F5F57DA818B6496C004CA306 /* frame_parse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = frame_parse.cpp; sourceTree = "<group>"; };
+		F5F57DA918B6496C004CA306 /* frame_render.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = frame_render.cpp; sourceTree = "<group>"; };
+		F5F57DAA18B6496C004CA306 /* globals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = globals.cpp; sourceTree = "<group>"; };
+		F5F57DAB18B6496C004CA306 /* header.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = header.cpp; sourceTree = "<group>"; };
+		F5F57DAC18B6496C004CA306 /* header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
+		F5F57DAD18B6496C004CA306 /* header_frame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = header_frame.cpp; sourceTree = "<group>"; };
+		F5F57DAE18B6496C004CA306 /* header_frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header_frame.h; sourceTree = "<group>"; };
+		F5F57DAF18B6496C004CA306 /* header_tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = header_tag.cpp; sourceTree = "<group>"; };
+		F5F57DB018B6496C004CA306 /* header_tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = header_tag.h; sourceTree = "<group>"; };
+		F5F57DB118B6496C004CA306 /* helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = helpers.cpp; sourceTree = "<group>"; };
+		F5F57DB218B6496C004CA306 /* io.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = io.cpp; sourceTree = "<group>"; };
+		F5F57DB318B6496C004CA306 /* io_decorators.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = io_decorators.cpp; sourceTree = "<group>"; };
+		F5F57DB418B6496C004CA306 /* io_helpers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = io_helpers.cpp; sourceTree = "<group>"; };
+		F5F57DB518B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DB618B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57DB718B6496C004CA306 /* misc_support.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = misc_support.cpp; sourceTree = "<group>"; };
+		F5F57DB818B6496C004CA306 /* mp3_header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mp3_header.h; sourceTree = "<group>"; };
+		F5F57DB918B6496C004CA306 /* mp3_parse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mp3_parse.cpp; sourceTree = "<group>"; };
+		F5F57DBA18B6496C004CA306 /* readers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = readers.cpp; sourceTree = "<group>"; };
+		F5F57DBB18B6496C004CA306 /* spec.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = spec.cpp; sourceTree = "<group>"; };
+		F5F57DBC18B6496C004CA306 /* spec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = spec.h; sourceTree = "<group>"; };
+		F5F57DBD18B6496C004CA306 /* tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag.cpp; sourceTree = "<group>"; };
+		F5F57DBE18B6496C004CA306 /* tag_file.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_file.cpp; sourceTree = "<group>"; };
+		F5F57DBF18B6496C004CA306 /* tag_find.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_find.cpp; sourceTree = "<group>"; };
+		F5F57DC018B6496C004CA306 /* tag_impl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_impl.cpp; sourceTree = "<group>"; };
+		F5F57DC118B6496C004CA306 /* tag_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag_impl.h; sourceTree = "<group>"; };
+		F5F57DC218B6496C004CA306 /* tag_parse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_parse.cpp; sourceTree = "<group>"; };
+		F5F57DC318B6496C004CA306 /* tag_parse_lyrics3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_parse_lyrics3.cpp; sourceTree = "<group>"; };
+		F5F57DC418B6496C004CA306 /* tag_parse_musicmatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_parse_musicmatch.cpp; sourceTree = "<group>"; };
+		F5F57DC518B6496C004CA306 /* tag_parse_v1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_parse_v1.cpp; sourceTree = "<group>"; };
+		F5F57DC618B6496C004CA306 /* tag_render.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag_render.cpp; sourceTree = "<group>"; };
+		F5F57DC718B6496C004CA306 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		F5F57DC818B6496C004CA306 /* writers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = writers.cpp; sourceTree = "<group>"; };
+		F5F57DC918B6496C004CA306 /* THANKS */ = {isa = PBXFileReference; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
+		F5F57DCA18B6496C004CA306 /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		F5F57DCC18B6496C004CA306 /* acconfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = acconfig.h; sourceTree = "<group>"; };
+		F5F57DCD18B6496C004CA306 /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		F5F57DCE18B6496C004CA306 /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		F5F57DCF18B6496C004CA306 /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		F5F57DD018B6496C004CA306 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		F5F57DD118B6496C004CA306 /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		F5F57DD218B6496C004CA306 /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		F5F57DD318B6496C004CA306 /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		F5F57DD518B6496C004CA306 /* deflate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deflate.h; sourceTree = "<group>"; };
+		F5F57DD618B6496C004CA306 /* infblock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infblock.h; sourceTree = "<group>"; };
+		F5F57DD718B6496C004CA306 /* infcodes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infcodes.h; sourceTree = "<group>"; };
+		F5F57DD818B6496C004CA306 /* inffast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inffast.h; sourceTree = "<group>"; };
+		F5F57DD918B6496C004CA306 /* inffixed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inffixed.h; sourceTree = "<group>"; };
+		F5F57DDA18B6496C004CA306 /* inftrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = inftrees.h; sourceTree = "<group>"; };
+		F5F57DDB18B6496C004CA306 /* infutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infutil.h; sourceTree = "<group>"; };
+		F5F57DDC18B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DDD18B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57DDE18B6496C004CA306 /* trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		F5F57DDF18B6496C004CA306 /* zconf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zconf.h; sourceTree = "<group>"; };
+		F5F57DE018B6496C004CA306 /* zlib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zlib.h; sourceTree = "<group>"; };
+		F5F57DE118B6496C004CA306 /* zutil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zutil.h; sourceTree = "<group>"; };
+		F5F57DE218B6496C004CA306 /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		F5F57DE418B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DE518B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57DE618B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DE718B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57DE818B6496C004CA306 /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		F5F57DE918B6496C004CA306 /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		F5F57DEB18B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DEC18B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57DED18B6496C004CA306 /* zlib.dsp */ = {isa = PBXFileReference; lastKnownFileType = text; path = zlib.dsp; sourceTree = "<group>"; };
+		F5F57DEE18B6496C004CA306 /* zlib.dsw */ = {isa = PBXFileReference; lastKnownFileType = text; path = zlib.dsw; sourceTree = "<group>"; };
+		F5F57DEF18B6496C004CA306 /* zlib.mak */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = zlib.mak; sourceTree = "<group>"; };
+		F5F57DF018B6496C004CA306 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		F5F57DF118B6496C004CA306 /* reconf */ = {isa = PBXFileReference; lastKnownFileType = text; path = reconf; sourceTree = "<group>"; };
+		F5F57DF318B6496C004CA306 /* adler32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = adler32.c; sourceTree = "<group>"; };
+		F5F57DF418B6496C004CA306 /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		F5F57DF518B6496C004CA306 /* crc32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crc32.c; sourceTree = "<group>"; };
+		F5F57DF618B6496C004CA306 /* deflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = deflate.c; sourceTree = "<group>"; };
+		F5F57DF718B6496C004CA306 /* gzio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gzio.c; sourceTree = "<group>"; };
+		F5F57DF818B6496C004CA306 /* infblock.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infblock.c; sourceTree = "<group>"; };
+		F5F57DF918B6496C004CA306 /* infcodes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infcodes.c; sourceTree = "<group>"; };
+		F5F57DFA18B6496C004CA306 /* inffast.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inffast.c; sourceTree = "<group>"; };
+		F5F57DFB18B6496C004CA306 /* inflate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inflate.c; sourceTree = "<group>"; };
+		F5F57DFC18B6496C004CA306 /* inftrees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = inftrees.c; sourceTree = "<group>"; };
+		F5F57DFD18B6496C004CA306 /* infutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = infutil.c; sourceTree = "<group>"; };
+		F5F57DFE18B6496C004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57DFF18B6496C004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57E0018B6496C004CA306 /* trees.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
+		F5F57E0118B6496C004CA306 /* uncompr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uncompr.c; sourceTree = "<group>"; };
+		F5F57E0218B6496C004CA306 /* zutil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = zutil.c; sourceTree = "<group>"; };
+		F5F57E0318B6496C004CA306 /* stamp-h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-h.in"; sourceTree = "<group>"; };
+		F5F57E0618B6520E004CA306 /* field.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = field.h; sourceTree = "<group>"; };
+		F5F57E0718B6520E004CA306 /* globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globals.h; sourceTree = "<group>"; };
+		F5F57E0818B6520E004CA306 /* helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helpers.h; sourceTree = "<group>"; };
+		F5F57E0918B6520E004CA306 /* id3lib_bitset */ = {isa = PBXFileReference; lastKnownFileType = text; path = id3lib_bitset; sourceTree = "<group>"; };
+		F5F57E0A18B6520E004CA306 /* id3lib_frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_frame.h; sourceTree = "<group>"; };
+		F5F57E0B18B6520E004CA306 /* id3lib_streams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_streams.h; sourceTree = "<group>"; };
+		F5F57E0C18B6520E004CA306 /* id3lib_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3lib_strings.h; sourceTree = "<group>"; };
+		F5F57E0D18B6520E004CA306 /* io_decorators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_decorators.h; sourceTree = "<group>"; };
+		F5F57E0E18B6520E004CA306 /* io_helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_helpers.h; sourceTree = "<group>"; };
+		F5F57E0F18B6520E004CA306 /* io_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = io_strings.h; sourceTree = "<group>"; };
+		F5F57E1018B6520E004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57E1118B6520E004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		F5F57E1218B6520E004CA306 /* misc_support.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = misc_support.h; sourceTree = "<group>"; };
+		F5F57E1318B6520E004CA306 /* reader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		F5F57E1418B6520E004CA306 /* readers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = readers.h; sourceTree = "<group>"; };
+		F5F57E1518B6520E004CA306 /* sized_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sized_types.h; sourceTree = "<group>"; };
+		F5F57E1618B6520E004CA306 /* tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		F5F57E1718B6520E004CA306 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		F5F57E1818B6520E004CA306 /* writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		F5F57E1918B6520E004CA306 /* writers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = writers.h; sourceTree = "<group>"; };
+		F5F57E1A18B6520E004CA306 /* id3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = id3.h; sourceTree = "<group>"; };
+		F5F57E1B18B6520E004CA306 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		F5F57E1C18B6520E004CA306 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +496,9 @@
 		F5F57BF518B59209004CA306 = {
 			isa = PBXGroup;
 			children = (
+				F5F57E0418B6520E004CA306 /* include */,
+				F5F57CF418B6496B004CA306 /* id3lib-3.8.3 */,
+				F5F57C0A18B648FE004CA306 /* libspotify-12.1.51-Darwin-universal */,
 				F5F57C0018B59209004CA306 /* mp3_tag_editor */,
 				F5F57BFF18B59209004CA306 /* Products */,
 			);
@@ -64,6 +519,713 @@
 				F5F57C0318B59209004CA306 /* mp3_tag_editor.1 */,
 			);
 			path = mp3_tag_editor;
+			sourceTree = "<group>";
+		};
+		F5F57C0A18B648FE004CA306 /* libspotify-12.1.51-Darwin-universal */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C0B18B648FE004CA306 /* ChangeLog */,
+				F5F57C0C18B648FE004CA306 /* docs */,
+				F5F57C4C18B648FE004CA306 /* examples */,
+				F5F57C9818B648FF004CA306 /* libspotify.framework */,
+				F5F57C9918B648FF004CA306 /* LICENSE */,
+				F5F57C9A18B648FF004CA306 /* licenses.xhtml */,
+				F5F57C9B18B648FF004CA306 /* man3 */,
+				F5F57CB418B648FF004CA306 /* README */,
+			);
+			path = "libspotify-12.1.51-Darwin-universal";
+			sourceTree = "<group>";
+		};
+		F5F57C0C18B648FE004CA306 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C0D18B648FE004CA306 /* html */,
+				F5F57C4918B648FE004CA306 /* images */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		F5F57C0D18B648FE004CA306 /* html */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C0E18B648FE004CA306 /* annotated.html */,
+				F5F57C0F18B648FE004CA306 /* api_8h.html */,
+				F5F57C1018B648FE004CA306 /* bc_s.png */,
+				F5F57C1118B648FE004CA306 /* bdwn.png */,
+				F5F57C1218B648FE004CA306 /* browse_8c-example.html */,
+				F5F57C1318B648FE004CA306 /* classes.html */,
+				F5F57C1418B648FE004CA306 /* closed.png */,
+				F5F57C1518B648FE004CA306 /* doxygen.css */,
+				F5F57C1618B648FE004CA306 /* doxygen.png */,
+				F5F57C1718B648FE004CA306 /* examples.html */,
+				F5F57C1818B648FE004CA306 /* files.html */,
+				F5F57C1918B648FE004CA306 /* functions.html */,
+				F5F57C1A18B648FE004CA306 /* functions_vars.html */,
+				F5F57C1B18B648FE004CA306 /* globals.html */,
+				F5F57C1C18B648FE004CA306 /* globals_0x69.html */,
+				F5F57C1D18B648FE004CA306 /* globals_0x73.html */,
+				F5F57C1E18B648FE004CA306 /* globals_0x74.html */,
+				F5F57C1F18B648FE004CA306 /* globals_defs.html */,
+				F5F57C2018B648FE004CA306 /* globals_enum.html */,
+				F5F57C2118B648FE004CA306 /* globals_eval.html */,
+				F5F57C2218B648FE004CA306 /* globals_func.html */,
+				F5F57C2318B648FE004CA306 /* globals_type.html */,
+				F5F57C2418B648FE004CA306 /* group__album.html */,
+				F5F57C2518B648FE004CA306 /* group__albumbrowse.html */,
+				F5F57C2618B648FE004CA306 /* group__artist.html */,
+				F5F57C2718B648FE004CA306 /* group__artistbrowse.html */,
+				F5F57C2818B648FE004CA306 /* group__error.html */,
+				F5F57C2918B648FE004CA306 /* group__image.html */,
+				F5F57C2A18B648FE004CA306 /* group__inbox.html */,
+				F5F57C2B18B648FE004CA306 /* group__link.html */,
+				F5F57C2C18B648FE004CA306 /* group__playlist.html */,
+				F5F57C2D18B648FE004CA306 /* group__search.html */,
+				F5F57C2E18B648FE004CA306 /* group__session.html */,
+				F5F57C2F18B648FE004CA306 /* group__toplist.html */,
+				F5F57C3018B648FE004CA306 /* group__track.html */,
+				F5F57C3118B648FE004CA306 /* group__types.html */,
+				F5F57C3218B648FE004CA306 /* group__user.html */,
+				F5F57C3318B648FE004CA306 /* index.html */,
+				F5F57C3418B648FE004CA306 /* jquery.js */,
+				F5F57C3518B648FE004CA306 /* jukebox_8c-example.html */,
+				F5F57C3618B648FE004CA306 /* modules.html */,
+				F5F57C3718B648FE004CA306 /* nav_f.png */,
+				F5F57C3818B648FE004CA306 /* nav_h.png */,
+				F5F57C3918B648FE004CA306 /* open.png */,
+				F5F57C3A18B648FE004CA306 /* search_8c-example.html */,
+				F5F57C3B18B648FE004CA306 /* structsp__audio__buffer__stats.html */,
+				F5F57C3C18B648FE004CA306 /* structsp__audioformat.html */,
+				F5F57C3D18B648FE004CA306 /* structsp__offline__sync__status.html */,
+				F5F57C3E18B648FE004CA306 /* structsp__playlist__callbacks.html */,
+				F5F57C3F18B648FE004CA306 /* structsp__playlistcontainer__callbacks.html */,
+				F5F57C4018B648FE004CA306 /* structsp__session__callbacks.html */,
+				F5F57C4118B648FE004CA306 /* structsp__session__config.html */,
+				F5F57C4218B648FE004CA306 /* structsp__subscribers.html */,
+				F5F57C4318B648FE004CA306 /* tab_a.png */,
+				F5F57C4418B648FE004CA306 /* tab_b.png */,
+				F5F57C4518B648FE004CA306 /* tab_h.png */,
+				F5F57C4618B648FE004CA306 /* tab_s.png */,
+				F5F57C4718B648FE004CA306 /* tabs.css */,
+				F5F57C4818B648FE004CA306 /* toplist_8c-example.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		F5F57C4918B648FE004CA306 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C4A18B648FE004CA306 /* spotify-core-logo-128x128.png */,
+				F5F57C4B18B648FE004CA306 /* spotify-core.txt */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		F5F57C4C18B648FE004CA306 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C4D18B648FE004CA306 /* api.h */,
+				F5F57C4E18B648FE004CA306 /* appkey.c */,
+				F5F57C4F18B648FE004CA306 /* common.mk */,
+				F5F57C5018B648FE004CA306 /* jukebox */,
+				F5F57C6418B648FF004CA306 /* localfiles */,
+				F5F57C6818B648FF004CA306 /* Makefile */,
+				F5F57C6918B648FF004CA306 /* Randomify */,
+				F5F57C7C18B648FF004CA306 /* spshell */,
+				F5F57C9418B648FF004CA306 /* stub */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		F5F57C5018B648FE004CA306 /* jukebox */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C5118B648FE004CA306 /* alsa-audio.c */,
+				F5F57C5218B648FE004CA306 /* api.h */,
+				F5F57C5318B648FE004CA306 /* appkey.o */,
+				F5F57C5418B648FE004CA306 /* audio.c */,
+				F5F57C5518B648FE004CA306 /* audio.h */,
+				F5F57C5618B648FE004CA306 /* audio.o */,
+				F5F57C5718B648FE004CA306 /* dummy-audio.c */,
+				F5F57C5818B648FE004CA306 /* jukebox.c */,
+				F5F57C5918B648FE004CA306 /* jukebox.o */,
+				F5F57C5A18B648FE004CA306 /* Makefile */,
+				F5F57C5B18B648FE004CA306 /* openal-audio.c */,
+				F5F57C5C18B648FE004CA306 /* openal-audio.o */,
+				F5F57C5D18B648FE004CA306 /* osx */,
+				F5F57C6118B648FF004CA306 /* osx-audio.c */,
+				F5F57C6218B648FF004CA306 /* playtrack.c */,
+				F5F57C6318B648FF004CA306 /* queue.h */,
+			);
+			path = jukebox;
+			sourceTree = "<group>";
+		};
+		F5F57C5D18B648FE004CA306 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C5E18B648FE004CA306 /* jukebox.xcodeproj */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		F5F57C5F18B648FE004CA306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57CB718B648FF004CA306 /* jukebox */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F57C6418B648FF004CA306 /* localfiles */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C6518B648FF004CA306 /* main.c */,
+				F5F57C6618B648FF004CA306 /* main.h */,
+				F5F57C6718B648FF004CA306 /* Makefile */,
+			);
+			path = localfiles;
+			sourceTree = "<group>";
+		};
+		F5F57C6918B648FF004CA306 /* Randomify */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C6A18B648FF004CA306 /* InfoPlist.strings */,
+				F5F57C6C18B648FF004CA306 /* MainMenu.xib */,
+				F5F57C6E18B648FF004CA306 /* main.m */,
+				F5F57C6F18B648FF004CA306 /* Randomify-Info.plist */,
+				F5F57C7018B648FF004CA306 /* Randomify.xcodeproj */,
+				F5F57C7318B648FF004CA306 /* Randomify_Prefix.pch */,
+				F5F57C7418B648FF004CA306 /* RandomifyAppDelegate.h */,
+				F5F57C7518B648FF004CA306 /* RandomifyAppDelegate.m */,
+				F5F57C7618B648FF004CA306 /* SpotifyPlaylist.h */,
+				F5F57C7718B648FF004CA306 /* SpotifyPlaylist.m */,
+				F5F57C7818B648FF004CA306 /* SpotifySession.h */,
+				F5F57C7918B648FF004CA306 /* SpotifySession.m */,
+				F5F57C7A18B648FF004CA306 /* SpotifyTrack.h */,
+				F5F57C7B18B648FF004CA306 /* SpotifyTrack.m */,
+			);
+			path = Randomify;
+			sourceTree = "<group>";
+		};
+		F5F57C7118B648FF004CA306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57CBA18B648FF004CA306 /* Randomify.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F57C7C18B648FF004CA306 /* spshell */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C7D18B648FF004CA306 /* browse.c */,
+				F5F57C7E18B648FF004CA306 /* cmd.c */,
+				F5F57C7F18B648FF004CA306 /* cmd.h */,
+				F5F57C8018B648FF004CA306 /* inbox.c */,
+				F5F57C8118B648FF004CA306 /* Makefile */,
+				F5F57C8218B648FF004CA306 /* osx */,
+				F5F57C8618B648FF004CA306 /* playlist.c */,
+				F5F57C8718B648FF004CA306 /* scrobbling.c */,
+				F5F57C8818B648FF004CA306 /* search.c */,
+				F5F57C8918B648FF004CA306 /* spshell.c */,
+				F5F57C8A18B648FF004CA306 /* spshell.h */,
+				F5F57C8B18B648FF004CA306 /* spshell_posix.c */,
+				F5F57C8C18B648FF004CA306 /* spshell_win32.c */,
+				F5F57C8D18B648FF004CA306 /* star.c */,
+				F5F57C8E18B648FF004CA306 /* test.c */,
+				F5F57C8F18B648FF004CA306 /* toplist.c */,
+				F5F57C9018B648FF004CA306 /* win32 */,
+			);
+			path = spshell;
+			sourceTree = "<group>";
+		};
+		F5F57C8218B648FF004CA306 /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C8318B648FF004CA306 /* spshell.xcodeproj */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+		F5F57C8418B648FF004CA306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57CBD18B648FF004CA306 /* spshell */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5F57C9018B648FF004CA306 /* win32 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C9118B648FF004CA306 /* spshell.vcproj */,
+				F5F57C9218B648FF004CA306 /* spshell.vcxproj */,
+				F5F57C9318B648FF004CA306 /* spshell.vcxproj.filters */,
+			);
+			path = win32;
+			sourceTree = "<group>";
+		};
+		F5F57C9418B648FF004CA306 /* stub */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C9518B648FF004CA306 /* main.c */,
+				F5F57C9618B648FF004CA306 /* main.h */,
+				F5F57C9718B648FF004CA306 /* Makefile */,
+			);
+			path = stub;
+			sourceTree = "<group>";
+		};
+		F5F57C9B18B648FF004CA306 /* man3 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57C9C18B648FF004CA306 /* album.3spotify */,
+				F5F57C9D18B648FF004CA306 /* albumbrowse.3spotify */,
+				F5F57C9E18B648FF004CA306 /* api.h.3spotify */,
+				F5F57C9F18B648FF004CA306 /* artist.3spotify */,
+				F5F57CA018B648FF004CA306 /* artistbrowse.3spotify */,
+				F5F57CA118B648FF004CA306 /* error.3spotify */,
+				F5F57CA218B648FF004CA306 /* image.3spotify */,
+				F5F57CA318B648FF004CA306 /* inbox.3spotify */,
+				F5F57CA418B648FF004CA306 /* link.3spotify */,
+				F5F57CA518B648FF004CA306 /* playlist.3spotify */,
+				F5F57CA618B648FF004CA306 /* search.3spotify */,
+				F5F57CA718B648FF004CA306 /* session.3spotify */,
+				F5F57CA818B648FF004CA306 /* sp_audio_buffer_stats.3spotify */,
+				F5F57CA918B648FF004CA306 /* sp_audioformat.3spotify */,
+				F5F57CAA18B648FF004CA306 /* sp_offline_sync_status.3spotify */,
+				F5F57CAB18B648FF004CA306 /* sp_playlist_callbacks.3spotify */,
+				F5F57CAC18B648FF004CA306 /* sp_playlistcontainer_callbacks.3spotify */,
+				F5F57CAD18B648FF004CA306 /* sp_session_callbacks.3spotify */,
+				F5F57CAE18B648FF004CA306 /* sp_session_config.3spotify */,
+				F5F57CAF18B648FF004CA306 /* sp_subscribers.3spotify */,
+				F5F57CB018B648FF004CA306 /* toplist.3spotify */,
+				F5F57CB118B648FF004CA306 /* track.3spotify */,
+				F5F57CB218B648FF004CA306 /* types.3spotify */,
+				F5F57CB318B648FF004CA306 /* user.3spotify */,
+			);
+			path = man3;
+			sourceTree = "<group>";
+		};
+		F5F57CF418B6496B004CA306 /* id3lib-3.8.3 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57CF518B6496B004CA306 /* acconfig.h */,
+				F5F57CF618B6496B004CA306 /* aclocal.m4 */,
+				F5F57CF718B6496B004CA306 /* AUTHORS */,
+				F5F57CF818B6496B004CA306 /* ChangeLog */,
+				F5F57CF918B6496B004CA306 /* config.guess */,
+				F5F57CFA18B6496B004CA306 /* config.h.in */,
+				F5F57CFB18B6496B004CA306 /* config.h.win32 */,
+				F5F57CFC18B6496B004CA306 /* config.h.win32.in */,
+				F5F57CFD18B6496B004CA306 /* config.sub */,
+				F5F57CFE18B6496B004CA306 /* configure */,
+				F5F57CFF18B6496B004CA306 /* configure.in */,
+				F5F57D0018B6496B004CA306 /* COPYING */,
+				F5F57D0118B6496B004CA306 /* depcomp */,
+				F5F57D0218B6496B004CA306 /* doc */,
+				F5F57D1518B6496B004CA306 /* examples */,
+				F5F57D3A18B6496B004CA306 /* HISTORY */,
+				F5F57D3B18B6496B004CA306 /* id3com */,
+				F5F57D5C18B6496B004CA306 /* id3lib.spec */,
+				F5F57D5D18B6496B004CA306 /* id3lib.spec.in */,
+				F5F57D5E18B6496B004CA306 /* include */,
+				F5F57D7718B6496C004CA306 /* INSTALL */,
+				F5F57D7818B6496C004CA306 /* install-sh */,
+				F5F57D7918B6496C004CA306 /* libprj */,
+				F5F57D8018B6496C004CA306 /* ltconfig */,
+				F5F57D8118B6496C004CA306 /* ltmain.sh */,
+				F5F57D8218B6496C004CA306 /* m4 */,
+				F5F57D8818B6496C004CA306 /* Makefile.am */,
+				F5F57D8918B6496C004CA306 /* Makefile.in */,
+				F5F57D8A18B6496C004CA306 /* makefile.win32 */,
+				F5F57D8B18B6496C004CA306 /* makewin32.bat */,
+				F5F57D8C18B6496C004CA306 /* missing */,
+				F5F57D8D18B6496C004CA306 /* mkinstalldirs */,
+				F5F57D8E18B6496C004CA306 /* NEWS */,
+				F5F57D8F18B6496C004CA306 /* prj */,
+				F5F57D9818B6496C004CA306 /* README */,
+				F5F57D9918B6496C004CA306 /* reconf */,
+				F5F57D9A18B6496C004CA306 /* src */,
+				F5F57DC918B6496C004CA306 /* THANKS */,
+				F5F57DCA18B6496C004CA306 /* TODO */,
+				F5F57DCB18B6496C004CA306 /* zlib */,
+			);
+			name = "id3lib-3.8.3";
+			path = "../../../Downloads/id3lib-3.8.3";
+			sourceTree = "<group>";
+		};
+		F5F57D0218B6496B004CA306 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D0318B6496B004CA306 /* 3d-logo.gif */,
+				F5F57D0418B6496B004CA306 /* attilas_id3logo.jpg */,
+				F5F57D0518B6496B004CA306 /* Doxyfile */,
+				F5F57D0618B6496B004CA306 /* Doxyfile.in */,
+				F5F57D0718B6496B004CA306 /* fillpx.gif */,
+				F5F57D0818B6496B004CA306 /* id3guide.html */,
+				F5F57D0918B6496B004CA306 /* id3lib-manual.php */,
+				F5F57D0A18B6496B004CA306 /* id3lib.css */,
+				F5F57D0B18B6496B004CA306 /* id3v2.3.0.html */,
+				F5F57D0C18B6496B004CA306 /* id3v2.3.0.txt */,
+				F5F57D0D18B6496B004CA306 /* id3v2.gif */,
+				F5F57D0E18B6496B004CA306 /* id3v2.ico */,
+				F5F57D0F18B6496B004CA306 /* id3v2.png */,
+				F5F57D1018B6496B004CA306 /* index.html */,
+				F5F57D1118B6496B004CA306 /* index.html.in */,
+				F5F57D1218B6496B004CA306 /* Makefile.am */,
+				F5F57D1318B6496B004CA306 /* Makefile.in */,
+				F5F57D1418B6496B004CA306 /* musicmatch.txt */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		F5F57D1518B6496B004CA306 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D1618B6496B004CA306 /* 221-compressed.tag */,
+				F5F57D1718B6496B004CA306 /* 230-compressed.tag */,
+				F5F57D1818B6496B004CA306 /* 230-picture.tag */,
+				F5F57D1918B6496B004CA306 /* 230-syncedlyrics.tag */,
+				F5F57D1A18B6496B004CA306 /* 230-unicode.tag */,
+				F5F57D1B18B6496B004CA306 /* composer.jpg */,
+				F5F57D1C18B6496B004CA306 /* crc53865.mp3 */,
+				F5F57D1D18B6496B004CA306 /* demo_convert.cpp */,
+				F5F57D1E18B6496B004CA306 /* demo_convert_options.c */,
+				F5F57D1F18B6496B004CA306 /* demo_convert_options.h */,
+				F5F57D2018B6496B004CA306 /* demo_copy.cpp */,
+				F5F57D2118B6496B004CA306 /* demo_copy_options.c */,
+				F5F57D2218B6496B004CA306 /* demo_copy_options.h */,
+				F5F57D2318B6496B004CA306 /* demo_info.cpp */,
+				F5F57D2418B6496B004CA306 /* demo_info_options.c */,
+				F5F57D2518B6496B004CA306 /* demo_info_options.h */,
+				F5F57D2618B6496B004CA306 /* demo_main.cpp */,
+				F5F57D2718B6496B004CA306 /* demo_simple.cpp */,
+				F5F57D2818B6496B004CA306 /* demo_tag.cpp */,
+				F5F57D2918B6496B004CA306 /* demo_tag_options.c */,
+				F5F57D2A18B6496B004CA306 /* demo_tag_options.h */,
+				F5F57D2B18B6496B004CA306 /* findeng.cpp */,
+				F5F57D2C18B6496B004CA306 /* findstr.cpp */,
+				F5F57D2D18B6496B004CA306 /* get_pic.cpp */,
+				F5F57D2E18B6496B004CA306 /* getopt.c */,
+				F5F57D2F18B6496B004CA306 /* getopt.h */,
+				F5F57D3018B6496B004CA306 /* getopt1.c */,
+				F5F57D3118B6496B004CA306 /* Makefile.am */,
+				F5F57D3218B6496B004CA306 /* Makefile.in */,
+				F5F57D3318B6496B004CA306 /* ozzy.tag */,
+				F5F57D3418B6496B004CA306 /* test_compression.cpp */,
+				F5F57D3518B6496B004CA306 /* test_io.cpp */,
+				F5F57D3618B6496B004CA306 /* test_pic.cpp */,
+				F5F57D3718B6496B004CA306 /* test_remove.cpp */,
+				F5F57D3818B6496B004CA306 /* test_unicode.cpp */,
+				F5F57D3918B6496B004CA306 /* thatspot.tag */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		F5F57D3B18B6496B004CA306 /* id3com */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D3C18B6496B004CA306 /* dlldata.c */,
+				F5F57D3D18B6496B004CA306 /* EnumFields.cpp */,
+				F5F57D3E18B6496B004CA306 /* EnumFields.h */,
+				F5F57D3F18B6496B004CA306 /* id3com.cpp */,
+				F5F57D4018B6496B004CA306 /* ID3COM.def */,
+				F5F57D4118B6496B004CA306 /* id3com.dsp */,
+				F5F57D4218B6496B004CA306 /* id3com.dsw */,
+				F5F57D4318B6496B004CA306 /* id3com.idl */,
+				F5F57D4418B6496B004CA306 /* ID3COM.rc */,
+				F5F57D4518B6496B004CA306 /* ID3COMps.def */,
+				F5F57D4618B6496B004CA306 /* ID3COMps.mk */,
+				F5F57D4718B6496B004CA306 /* ID3Field.cpp */,
+				F5F57D4818B6496B004CA306 /* ID3Field.h */,
+				F5F57D4918B6496B004CA306 /* ID3Field.rgs */,
+				F5F57D4A18B6496B004CA306 /* ID3Frame.cpp */,
+				F5F57D4B18B6496B004CA306 /* ID3Frame.h */,
+				F5F57D4C18B6496B004CA306 /* ID3Frame.rgs */,
+				F5F57D4D18B6496B004CA306 /* ID3Tag.cpp */,
+				F5F57D4E18B6496B004CA306 /* ID3Tag.h */,
+				F5F57D4F18B6496B004CA306 /* ID3Tag.rgs */,
+				F5F57D5018B6496B004CA306 /* Makefile.am */,
+				F5F57D5118B6496B004CA306 /* Makefile.in */,
+				F5F57D5218B6496B004CA306 /* resource.h */,
+				F5F57D5318B6496B004CA306 /* Sample */,
+				F5F57D5918B6496B004CA306 /* StdAfx.cpp */,
+				F5F57D5A18B6496B004CA306 /* StdAfx.h */,
+				F5F57D5B18B6496B004CA306 /* win32.readme.first.txt */,
+			);
+			path = id3com;
+			sourceTree = "<group>";
+		};
+		F5F57D5318B6496B004CA306 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D5418B6496B004CA306 /* frmID3Test.frm */,
+				F5F57D5518B6496B004CA306 /* ID3Test.vbp */,
+				F5F57D5618B6496B004CA306 /* ID3Test.vbw */,
+				F5F57D5718B6496B004CA306 /* Makefile.am */,
+				F5F57D5818B6496B004CA306 /* Makefile.in */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		F5F57D5E18B6496B004CA306 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D5F18B6496B004CA306 /* id3 */,
+				F5F57D7418B6496C004CA306 /* id3.h */,
+				F5F57D7518B6496C004CA306 /* Makefile.am */,
+				F5F57D7618B6496C004CA306 /* Makefile.in */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F5F57D5F18B6496B004CA306 /* id3 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D6018B6496B004CA306 /* field.h */,
+				F5F57D6118B6496B004CA306 /* globals.h */,
+				F5F57D6218B6496B004CA306 /* helpers.h */,
+				F5F57D6318B6496B004CA306 /* id3lib_bitset */,
+				F5F57D6418B6496B004CA306 /* id3lib_frame.h */,
+				F5F57D6518B6496B004CA306 /* id3lib_streams.h */,
+				F5F57D6618B6496B004CA306 /* id3lib_strings.h */,
+				F5F57D6718B6496B004CA306 /* io_decorators.h */,
+				F5F57D6818B6496B004CA306 /* io_helpers.h */,
+				F5F57D6918B6496B004CA306 /* io_strings.h */,
+				F5F57D6A18B6496B004CA306 /* Makefile.am */,
+				F5F57D6B18B6496B004CA306 /* Makefile.in */,
+				F5F57D6C18B6496B004CA306 /* misc_support.h */,
+				F5F57D6D18B6496C004CA306 /* reader.h */,
+				F5F57D6E18B6496C004CA306 /* readers.h */,
+				F5F57D6F18B6496C004CA306 /* sized_types.h */,
+				F5F57D7018B6496C004CA306 /* tag.h */,
+				F5F57D7118B6496C004CA306 /* utils.h */,
+				F5F57D7218B6496C004CA306 /* writer.h */,
+				F5F57D7318B6496C004CA306 /* writers.h */,
+			);
+			path = id3;
+			sourceTree = "<group>";
+		};
+		F5F57D7918B6496C004CA306 /* libprj */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D7A18B6496C004CA306 /* id3lib.dsp */,
+				F5F57D7B18B6496C004CA306 /* id3lib.dsw */,
+				F5F57D7C18B6496C004CA306 /* id3lib.mcp */,
+				F5F57D7D18B6496C004CA306 /* Makefile.am */,
+				F5F57D7E18B6496C004CA306 /* Makefile.in */,
+				F5F57D7F18B6496C004CA306 /* win32.readme.first.txt */,
+			);
+			path = libprj;
+			sourceTree = "<group>";
+		};
+		F5F57D8218B6496C004CA306 /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D8318B6496C004CA306 /* id3_cxx.m4 */,
+				F5F57D8418B6496C004CA306 /* id3_debug.m4 */,
+				F5F57D8518B6496C004CA306 /* id3_unicode.m4 */,
+				F5F57D8618B6496C004CA306 /* Makefile.am */,
+				F5F57D8718B6496C004CA306 /* Makefile.in */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		F5F57D8F18B6496C004CA306 /* prj */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D9018B6496C004CA306 /* id3lib.def */,
+				F5F57D9118B6496C004CA306 /* id3lib.dsp */,
+				F5F57D9218B6496C004CA306 /* id3lib.dsw */,
+				F5F57D9318B6496C004CA306 /* id3lib.mak */,
+				F5F57D9418B6496C004CA306 /* Makefile.am */,
+				F5F57D9518B6496C004CA306 /* Makefile.in */,
+				F5F57D9618B6496C004CA306 /* version.rc */,
+				F5F57D9718B6496C004CA306 /* win32.readme.first.txt */,
+			);
+			path = prj;
+			sourceTree = "<group>";
+		};
+		F5F57D9A18B6496C004CA306 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57D9B18B6496C004CA306 /* c_wrapper.cpp */,
+				F5F57D9C18B6496C004CA306 /* field.cpp */,
+				F5F57D9D18B6496C004CA306 /* field_binary.cpp */,
+				F5F57D9E18B6496C004CA306 /* field_def.h */,
+				F5F57D9F18B6496C004CA306 /* field_impl.h */,
+				F5F57DA018B6496C004CA306 /* field_integer.cpp */,
+				F5F57DA118B6496C004CA306 /* field_string_ascii.cpp */,
+				F5F57DA218B6496C004CA306 /* field_string_unicode.cpp */,
+				F5F57DA318B6496C004CA306 /* flags.h */,
+				F5F57DA418B6496C004CA306 /* frame.cpp */,
+				F5F57DA518B6496C004CA306 /* frame_def.h */,
+				F5F57DA618B6496C004CA306 /* frame_impl.cpp */,
+				F5F57DA718B6496C004CA306 /* frame_impl.h */,
+				F5F57DA818B6496C004CA306 /* frame_parse.cpp */,
+				F5F57DA918B6496C004CA306 /* frame_render.cpp */,
+				F5F57DAA18B6496C004CA306 /* globals.cpp */,
+				F5F57DAB18B6496C004CA306 /* header.cpp */,
+				F5F57DAC18B6496C004CA306 /* header.h */,
+				F5F57DAD18B6496C004CA306 /* header_frame.cpp */,
+				F5F57DAE18B6496C004CA306 /* header_frame.h */,
+				F5F57DAF18B6496C004CA306 /* header_tag.cpp */,
+				F5F57DB018B6496C004CA306 /* header_tag.h */,
+				F5F57DB118B6496C004CA306 /* helpers.cpp */,
+				F5F57DB218B6496C004CA306 /* io.cpp */,
+				F5F57DB318B6496C004CA306 /* io_decorators.cpp */,
+				F5F57DB418B6496C004CA306 /* io_helpers.cpp */,
+				F5F57DB518B6496C004CA306 /* Makefile.am */,
+				F5F57DB618B6496C004CA306 /* Makefile.in */,
+				F5F57DB718B6496C004CA306 /* misc_support.cpp */,
+				F5F57DB818B6496C004CA306 /* mp3_header.h */,
+				F5F57DB918B6496C004CA306 /* mp3_parse.cpp */,
+				F5F57DBA18B6496C004CA306 /* readers.cpp */,
+				F5F57DBB18B6496C004CA306 /* spec.cpp */,
+				F5F57DBC18B6496C004CA306 /* spec.h */,
+				F5F57DBD18B6496C004CA306 /* tag.cpp */,
+				F5F57DBE18B6496C004CA306 /* tag_file.cpp */,
+				F5F57DBF18B6496C004CA306 /* tag_find.cpp */,
+				F5F57DC018B6496C004CA306 /* tag_impl.cpp */,
+				F5F57DC118B6496C004CA306 /* tag_impl.h */,
+				F5F57DC218B6496C004CA306 /* tag_parse.cpp */,
+				F5F57DC318B6496C004CA306 /* tag_parse_lyrics3.cpp */,
+				F5F57DC418B6496C004CA306 /* tag_parse_musicmatch.cpp */,
+				F5F57DC518B6496C004CA306 /* tag_parse_v1.cpp */,
+				F5F57DC618B6496C004CA306 /* tag_render.cpp */,
+				F5F57DC718B6496C004CA306 /* utils.cpp */,
+				F5F57DC818B6496C004CA306 /* writers.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F5F57DCB18B6496C004CA306 /* zlib */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57DCC18B6496C004CA306 /* acconfig.h */,
+				F5F57DCD18B6496C004CA306 /* aclocal.m4 */,
+				F5F57DCE18B6496C004CA306 /* AUTHORS */,
+				F5F57DCF18B6496C004CA306 /* ChangeLog */,
+				F5F57DD018B6496C004CA306 /* config.h.in */,
+				F5F57DD118B6496C004CA306 /* configure */,
+				F5F57DD218B6496C004CA306 /* configure.in */,
+				F5F57DD318B6496C004CA306 /* COPYING */,
+				F5F57DD418B6496C004CA306 /* include */,
+				F5F57DE218B6496C004CA306 /* INSTALL */,
+				F5F57DE318B6496C004CA306 /* lib */,
+				F5F57DE618B6496C004CA306 /* Makefile.am */,
+				F5F57DE718B6496C004CA306 /* Makefile.in */,
+				F5F57DE818B6496C004CA306 /* mkinstalldirs */,
+				F5F57DE918B6496C004CA306 /* NEWS */,
+				F5F57DEA18B6496C004CA306 /* prj */,
+				F5F57DF018B6496C004CA306 /* README */,
+				F5F57DF118B6496C004CA306 /* reconf */,
+				F5F57DF218B6496C004CA306 /* src */,
+				F5F57E0318B6496C004CA306 /* stamp-h.in */,
+			);
+			path = zlib;
+			sourceTree = "<group>";
+		};
+		F5F57DD418B6496C004CA306 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57DD518B6496C004CA306 /* deflate.h */,
+				F5F57DD618B6496C004CA306 /* infblock.h */,
+				F5F57DD718B6496C004CA306 /* infcodes.h */,
+				F5F57DD818B6496C004CA306 /* inffast.h */,
+				F5F57DD918B6496C004CA306 /* inffixed.h */,
+				F5F57DDA18B6496C004CA306 /* inftrees.h */,
+				F5F57DDB18B6496C004CA306 /* infutil.h */,
+				F5F57DDC18B6496C004CA306 /* Makefile.am */,
+				F5F57DDD18B6496C004CA306 /* Makefile.in */,
+				F5F57DDE18B6496C004CA306 /* trees.h */,
+				F5F57DDF18B6496C004CA306 /* zconf.h */,
+				F5F57DE018B6496C004CA306 /* zlib.h */,
+				F5F57DE118B6496C004CA306 /* zutil.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		F5F57DE318B6496C004CA306 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57DE418B6496C004CA306 /* Makefile.am */,
+				F5F57DE518B6496C004CA306 /* Makefile.in */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		F5F57DEA18B6496C004CA306 /* prj */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57DEB18B6496C004CA306 /* Makefile.am */,
+				F5F57DEC18B6496C004CA306 /* Makefile.in */,
+				F5F57DED18B6496C004CA306 /* zlib.dsp */,
+				F5F57DEE18B6496C004CA306 /* zlib.dsw */,
+				F5F57DEF18B6496C004CA306 /* zlib.mak */,
+			);
+			path = prj;
+			sourceTree = "<group>";
+		};
+		F5F57DF218B6496C004CA306 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57DF318B6496C004CA306 /* adler32.c */,
+				F5F57DF418B6496C004CA306 /* compress.c */,
+				F5F57DF518B6496C004CA306 /* crc32.c */,
+				F5F57DF618B6496C004CA306 /* deflate.c */,
+				F5F57DF718B6496C004CA306 /* gzio.c */,
+				F5F57DF818B6496C004CA306 /* infblock.c */,
+				F5F57DF918B6496C004CA306 /* infcodes.c */,
+				F5F57DFA18B6496C004CA306 /* inffast.c */,
+				F5F57DFB18B6496C004CA306 /* inflate.c */,
+				F5F57DFC18B6496C004CA306 /* inftrees.c */,
+				F5F57DFD18B6496C004CA306 /* infutil.c */,
+				F5F57DFE18B6496C004CA306 /* Makefile.am */,
+				F5F57DFF18B6496C004CA306 /* Makefile.in */,
+				F5F57E0018B6496C004CA306 /* trees.c */,
+				F5F57E0118B6496C004CA306 /* uncompr.c */,
+				F5F57E0218B6496C004CA306 /* zutil.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F5F57E0418B6520E004CA306 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57E0518B6520E004CA306 /* id3 */,
+				F5F57E1A18B6520E004CA306 /* id3.h */,
+				F5F57E1B18B6520E004CA306 /* Makefile.am */,
+				F5F57E1C18B6520E004CA306 /* Makefile.in */,
+			);
+			name = include;
+			path = "../../../Downloads/id3lib-3.8.3/include";
+			sourceTree = "<group>";
+		};
+		F5F57E0518B6520E004CA306 /* id3 */ = {
+			isa = PBXGroup;
+			children = (
+				F5F57E0618B6520E004CA306 /* field.h */,
+				F5F57E0718B6520E004CA306 /* globals.h */,
+				F5F57E0818B6520E004CA306 /* helpers.h */,
+				F5F57E0918B6520E004CA306 /* id3lib_bitset */,
+				F5F57E0A18B6520E004CA306 /* id3lib_frame.h */,
+				F5F57E0B18B6520E004CA306 /* id3lib_streams.h */,
+				F5F57E0C18B6520E004CA306 /* id3lib_strings.h */,
+				F5F57E0D18B6520E004CA306 /* io_decorators.h */,
+				F5F57E0E18B6520E004CA306 /* io_helpers.h */,
+				F5F57E0F18B6520E004CA306 /* io_strings.h */,
+				F5F57E1018B6520E004CA306 /* Makefile.am */,
+				F5F57E1118B6520E004CA306 /* Makefile.in */,
+				F5F57E1218B6520E004CA306 /* misc_support.h */,
+				F5F57E1318B6520E004CA306 /* reader.h */,
+				F5F57E1418B6520E004CA306 /* readers.h */,
+				F5F57E1518B6520E004CA306 /* sized_types.h */,
+				F5F57E1618B6520E004CA306 /* tag.h */,
+				F5F57E1718B6520E004CA306 /* utils.h */,
+				F5F57E1818B6520E004CA306 /* writer.h */,
+				F5F57E1918B6520E004CA306 /* writers.h */,
+			);
+			path = id3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,16 +1263,55 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = F5F57BF518B59209004CA306;
 			productRefGroup = F5F57BFF18B59209004CA306 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F5F57C5F18B648FE004CA306 /* Products */;
+					ProjectRef = F5F57C5E18B648FE004CA306 /* jukebox.xcodeproj */;
+				},
+				{
+					ProductGroup = F5F57C7118B648FF004CA306 /* Products */;
+					ProjectRef = F5F57C7018B648FF004CA306 /* Randomify.xcodeproj */;
+				},
+				{
+					ProductGroup = F5F57C8418B648FF004CA306 /* Products */;
+					ProjectRef = F5F57C8318B648FF004CA306 /* spshell.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F5F57BFD18B59209004CA306 /* mp3_tag_editor */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F5F57CB718B648FF004CA306 /* jukebox */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = jukebox;
+			remoteRef = F5F57CB618B648FF004CA306 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5F57CBA18B648FF004CA306 /* Randomify.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Randomify.app;
+			remoteRef = F5F57CB918B648FF004CA306 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F5F57CBD18B648FF004CA306 /* spshell */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = spshell;
+			remoteRef = F5F57CBC18B648FF004CA306 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F5F57BFA18B59209004CA306 /* Sources */ = {
@@ -122,6 +1323,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5F57C6A18B648FF004CA306 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F57C6B18B648FF004CA306 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5F57C6C18B648FF004CA306 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5F57C6D18B648FF004CA306 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F5F57C0518B59209004CA306 /* Debug */ = {

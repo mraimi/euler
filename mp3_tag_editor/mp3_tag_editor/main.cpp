@@ -7,12 +7,11 @@
 //
 
 #include <iostream>
+#include "tag.h"
 
 int main(int argc, const char * argv[])
 {
-
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    ID3_Tag newTag("/Users/tobes/Desktop/cashin_dreams.mp3");
+        return 0;
 }
 
